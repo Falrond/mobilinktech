@@ -464,7 +464,7 @@ section {
 }
 
 .clients .swiper {
-  padding: 10px 0;
+  padding: 20px 0;
 }
 
 .clients .swiper-slide img {
@@ -1198,4 +1198,17 @@ section {
 
 .job-offer h4 {
   text-decoration: underline;
+}
+
+.promes {
+  max-width: 130px;
+}
+.alliance {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.alliance img {
+  height: 100%;
 }
