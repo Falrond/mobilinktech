@@ -466,9 +466,16 @@ section {
 .clients .swiper {
   padding: 20px 0;
 }
+.clients .swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 120px; */
+}
 
 .clients .swiper-slide img {
   transition: 0.3s;
+  /* height: 100%; */
 }
 
 .clients .swiper-slide img:hover {
