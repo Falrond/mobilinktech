@@ -178,7 +178,8 @@ section {
   transition: all 0.5s;
   z-index: 997;
   height: 90px;
-  background-color: var(--color-primary);
+  /* background-color: var(--color-primary); */
+  background-color: white;
   position: fixed;
   top: 0;
   right: 0;
@@ -251,6 +252,7 @@ section {
     font-size: 16px;
     font-weight: 600;
     color: rgba(255, 255, 255, 0.6);
+    color: #444;
     white-space: nowrap;
     transition: 0.3s;
     position: relative;
@@ -287,7 +289,7 @@ section {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover > a {
-    color: #fff;
+    color: #222;
   }
 }
 @media (min-width: 1280px) {
@@ -1035,8 +1037,8 @@ section {
   position: relative;
   overflow: hidden;
   /* background: #008d7d; */
-  background: var(--color-primary-lighter);
-  box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.08);
+  background: white;
+  box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
   z-index: 1;
@@ -1052,7 +1054,7 @@ section {
 }
 
 .hero .icon-box .title a {
-  color: #fff;
+  color: var(--color-primary);
   transition: 0.3s;
 }
 
@@ -1063,7 +1065,7 @@ section {
   transition: all 0.3s ease-in-out;
   font-size: 48px;
   line-height: 1;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--color-primary);
 }
 
 .hero .icon-box:hover {
@@ -1164,6 +1166,7 @@ section {
   padding: 10px 0;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .footer .footer-links ul li:first-child {
@@ -1175,6 +1178,8 @@ section {
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .footer .footer-links ul a:hover {
