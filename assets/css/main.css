@@ -1032,12 +1032,16 @@ section {
   }
 }
 
+/* 
+#F7594F
+#3FA9F5 */
+
 .hero .icon-box {
   padding: 60px 30px;
   position: relative;
   overflow: hidden;
   /* background: #008d7d; */
-  background: white;
+  background: #3fa9f5;
   box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
@@ -1054,7 +1058,7 @@ section {
 }
 
 .hero .icon-box .title a {
-  color: var(--color-primary);
+  color: #fff;
   transition: 0.3s;
 }
 
@@ -1065,7 +1069,7 @@ section {
   transition: all 0.3s ease-in-out;
   font-size: 48px;
   line-height: 1;
-  color: var(--color-primary);
+  color: #fff;
 }
 
 .hero .icon-box:hover {
